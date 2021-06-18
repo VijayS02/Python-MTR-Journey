@@ -5,7 +5,7 @@ date: Friday, 16th March, 2021
 title: "CSC111 Project: Speed information for the Hong Kong MTR"
 ---
 
-# Introduction {#introduction .unnumbered}
+# Introduction
 
 Note: This is mostly similar to the original project proposal, changes
 have been highlighted through italicized text.
@@ -57,7 +57,7 @@ times, the speed of each line, latitude, and longitude data will be
 taken from Wikipedia's API in order to calculate distances between
 certain stations.*
 
-# Dataset Description {#dataset-description .unnumbered}
+# Dataset Description
 
 The starting point for the program is the following dataset taken from
 <https://data.gov.hk/en-data/dataset/mtr-data-routes-fares-barrier-free-facilities>.
@@ -296,7 +296,7 @@ for which clicks are searched can be easily modified from a csv file,
 making it easy to change station positions if required. In addition, the
 raw nature of *pygame* allows a path to be easily drawn.
 
-# Instructions for Obtaining Datasets {#instructions-for-obtaining-datasets .unnumbered}
+# Instructions for Obtaining Datasets
 
 Please ensure that all imports in *requirements.txt* have been
 installed.
@@ -340,7 +340,7 @@ station.
 Then a window should pop up which shows the MTR map and some other
 information.
 
-# Changes from Proposal {#changes-from-proposal .unnumbered}
+# Changes from Proposal
 
 As mentioned at the start, changes in the introduction were italicized
 but will be reiterated here. The program now distinguishes between
@@ -349,7 +349,7 @@ airport express. Not all fares are shown for each route, only the fare
 for an adult with an octopus card (This can be changed, see main.py's
 constants and *run_main* for more details).
 
-# Discussion {#discussion .unnumbered}
+# Discussion
 
 After using the program that was made to check the time of some journeys
 that I travel regularly, I can say that it is fairly accurate in terms
@@ -385,7 +385,7 @@ updated by possibly using a sort of masking method to show and hide
 certain parts of a secondary image which is a highlighted version of the
 MTR map. This would result in a more natural look to the UI.
 
-# References {#references .unnumbered}
+# References
 
 Commons.wikimedia.org. 2021. File:Hong Kong Railway Route Map blank.svg.
 online Available at:\
